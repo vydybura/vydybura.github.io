@@ -1,0 +1,360 @@
+@media (max-width: 1400px)
+    .car
+        img
+            margin: 50px 171px
+
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 14px
+    .promo
+        &_header
+            font-size: 50px
+        &_subheader
+            font-size: 34px
+        &_btn
+            margin-left: 336px
+    .benefits
+        .label
+            margin-left: 492px
+    // .header_bg
+    //     width: 1440px
+    .mobile
+        .label
+            margin-left: 496px
+        &_item
+            width: 305px
+    .car img
+        margin: 50px 92px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        img
+            width: 100%
+        .logo_text
+            font-size: 11px
+        &_phone
+            font-size: 18px
+        &_btn
+            height: 41px
+            width: 100%
+            margin-top: 27px
+            font-size: 13px
+    .promo
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+        &_btn
+            margin-left: 238px
+    .benefits
+        .label
+            margin-left: 298px
+        &_var
+            flex-direction: column
+            align-items: center
+        &_discr
+            width: 300px
+            margin-top: 20px
+    .mobile
+        .label
+            margin-left: 300px
+        &_item
+            width: 218px
+            height: 226px
+            &_subtitle
+                font-size: 18px
+                line-height: 27px
+            &_plus
+                bottom: 18px
+    .car img
+        margin: 50px -29px
+    footer
+        .download
+            a
+                img
+                    width: 59px
+                    margin-left: 1px
+                    margin-top: 22px
+        .icon_link
+            margin-right: 5px
+            &_img
+                width: 100%
+        .futer
+            &_menu
+                width: 301px
+            a
+                font-size: 11px
+
+        .futer::before
+            width: 227px
+            margin-right: 63px
+
+@media (max-width: 767px)
+    .car img
+        margin: 50px -14px
+        width: 100%
+    footer
+        display: block
+        .futer
+            &:before
+                width: 227px
+                margin-right: 124px
+        .icon
+            margin-left: 183px
+            a
+                img
+                    width: 50px
+        .download
+            margin-left: 91px
+    .menu
+        position: fixed
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        flex-direction: column
+        background-color: rgba(0,0,0, 0.8)
+        justify-content: center
+        align-items: center
+        transition: 0.6s all
+        &_active
+            left: 0
+
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+        &_link
+            font-size: 20px
+
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+    .subheader
+        &_phone
+            display: block
+            font-size: 16px
+            color: #ffffff
+            font-weight: 400
+            font-family: "Roboto"
+            margin: 11px 5px
+        &_btn
+            display: block
+            width: 158px
+            height: 40px
+            margin: -10px 88px
+            font-size: 13px
+            color: #ffffff
+            font-weight: 400
+            text-align: center
+    .promo
+        &_btn
+            margin: 175px 134px
+
+        &_header
+            line-height: 45px
+        &_subheader
+            margin-top: 29px
+    .benefits
+        .label
+            margin-left: 204px
+    .mobile
+        .label
+            margin-left: 210px
+@media ( max-width: 574px)
+    footer
+        .icon
+            margin-left: 106px
+        .download
+            margin-left: 117px
+
+            a
+                img
+                    width: 84px
+                    margin-left: -84px
+        .futer
+            &:before
+                width: 177px
+                margin-right: 83px
+            .futer_menu
+                width: 247px
+                margin: 0 46px
+                &_2
+                    margin: 0 70px
+                    width: 207px
+            .rus
+                margin-left: 19px
+
+    .benefits
+        .label
+            margin-left: 150px
+    .mobile
+        .label
+            margin-left: 138px
+
+    .subheader
+        &_btn
+            margin: -5px 6px
+            width: 121px
+            height: 27px
+            font-size: 10px
+            color: #ffffff
+            font-weight: 400
+            text-align: center
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+        &_phone
+            font-size: 12px
+            color: #ffffff
+            font-weight: 400
+            text-align: center
+        .logo
+            margin-top: 32px
+
+    .promo
+        &_btn
+            margin: 179px 100px
+            width: 211px
+            height: 67px
+            font-size: 16px
+            color: #ffffff
+            font-weight: 400
+            text-align: center
+            &:hover
+                background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
+
+        &_header
+            font-size: 30px
+        &_subheader
+            font-size: 20px
+        &_descr
+            display: none
+
+    .car
+        .subtitle
+            font-size: 17px
+            color: #ffffff
+            font-weight: 300
+            text-align: center
+            margin-top: -23px
+    .require
+        .label
+            margin: -441px auto
+        .title
+            margin-top: 444px
+    .es-hidden
+        display: none
+    .es-visite
+        display: block
+        &_2
+            display: flex
+            justify-content: space-between
+    .white_bg
+        display: none
+    .menu
+        &_link
+            font-size: 14px
+            align-items: center
+            display: block
+        &_item
+            width: 100%
+            text-align: center
+            padding: 5px 0
+@media ( max-width: 424px)
+    .promo
+        &_btn
+            margin: 179px 74px
+    .benefits
+        .label
+            margin-left: 110px
+    .mobile
+        .label
+            margin-left: 122px
+    footer
+        .icon
+            margin-left: 69px
+        .download
+            margin-left: 117px
+
+            a
+                img
+                    width: 84px
+                    margin-left: -84px
+        .futer
+            &:before
+                width: 177px
+                margin-right: 55px
+            .futer_menu
+                width: 247px
+                margin: 0 23px
+                &_2
+                    margin: 0 45px
+                    width: 207px
+            .rus
+                margin-left: 19px
+
+@media ( max-width: 374px)
+    .promo
+        &_btn
+            margin: 179px 47px
+    .benefits
+        .label
+            margin-left: 99px
+    .mobile
+        .label
+            margin-left: 92px
+    footer
+        .icon
+            margin-left: 36px
+        .download
+            margin-left: 90px
+
+            a
+                img
+                    width: 84px
+                    margin-left: -84px
+        .futer
+            &:before
+                width: 177px
+                margin-right: 43px
+            .futer_menu
+                width: 247px
+                margin: 0 -23px
+                &_2
+                    margin: 0 2px
+                    width: 207px
+            .rus
+                margin-left: -25px
